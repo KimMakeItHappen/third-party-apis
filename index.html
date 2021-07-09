@@ -27,12 +27,26 @@
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
+      <h2> <div=moment().format("MMM Do YY");></div> July 8, 2021</h2>
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <form id="formPlanner">
+    <div class="rowPlanner" hour-index="9" style="background-color: lightgrey;"></div>
+    <div class="rowPlanner" hour-index="10" style="background-color: lightgrey;"></div>
+    <div class="rowPlanner" hour-index="11" style="background-color: lightgrey;"></div>
+    <div class="rowPlanner" hour-index="12" style="background-color: lightgrey;"></div>
+    <div class="rowPlanner" hour-index="1" style="background-color: lightgrey;"></div>
+    <div class="rowPlanner" hour-index="2" style="background-color: lightgrey;"></div>
+    <div class="rowPlanner" hour-index="3" style="background-color: lightgrey;"></div>
+    <div class="rowPlanner" hour-index="4" style="background-color: lightgrey;"></div>
+    <div class="rowPlanner" hour-index="4" style="background-color: lightgrey;"></div>
+      </form>
     </div>
 
+    <script src="./lib/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
